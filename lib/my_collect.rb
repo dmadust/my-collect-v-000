@@ -8,8 +8,3 @@ def my_collect(array)
 
   collection
 end
-
-arr = my_collect(["Fire", "flamASes", "WoSWA"]) do |word|
-  word.downcase
-end
-puts arr
